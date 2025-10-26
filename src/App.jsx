@@ -15,7 +15,9 @@ import About from "./Pages/About";
 import Manb from "./Pages/Manb";
 import ProtectRouting from "./ProtectRouting/ProtectRouting";
 import ManC from "./Pages/ManC";
-import Womenca from "./Pages/WomenCA";
+// import Womenca from "./Pages/WomenCA";
+import WomenCA from "./Pages/Womenca.jsx"; // ✅ matches exact filename
+
 import WomenA from "./Pages/WomenA";
 import GirlTshirt from "./Pages/GirlTshirt"
 import GirlLower from "./Pages/GirlLower";
