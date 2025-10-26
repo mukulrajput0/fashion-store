@@ -12,8 +12,6 @@ import Img6 from "../assets/image/shoes/shoes.jpg"
 import Img7 from "../assets/image/jeans/jeans3.jpg"
 import Img8 from "../assets/image/shirt-man/shirt4.jpg"
 import Img9 from "../assets/image/T-shirt-man/t-shirt4.jpg"
-import Img10 from "../assets/image/shoes/shoes1.jpg"
-import Img11 from "../assets/image/jeans/jeans4.jpg"
 import Img16 from "../assets/image/t/t2.png"
 import Img15 from "../assets/image/t/t1.png"
 import Img17 from "../assets/image/t/t3.png"
@@ -24,22 +22,35 @@ import Img21 from "../assets/image/t/t7.png"
 import Img25 from "../assets/image/back-print/14.png"
 import Img26 from "../assets/image/back-print/15.png"
 import Img27 from "../assets/image/back-print/16.png"
+import Img28 from '../assets/image/T-shirt-man/1.png'
+import Img29 from '../assets/image/T-shirt-man/2.png'
+import Img30 from '../assets/image/T-shirt-man/3.png'
+import Img31 from '../assets/image/T-shirt-man/4.png'
+import Img32 from '../assets/image/T-shirt-man/5.png'
+import Img33 from '../assets/image/T-shirt-man/6.png'
+import Img34 from '../assets/image/T-shirt-man/7.png'
+import Img35 from '../assets/image/T-shirt-man/8.png'
+import Img36 from '../assets/image/T-shirt-man/9.png'
+import Img37 from '../assets/image/T-shirt-man/10.png'
+import Img38 from '../assets/image/T-shirt-man/11.png'
+import Img39 from '../assets/image/T-shirt-man/12.png'
+// import Img40 from '../assets/image/T-shirt-man/13.png'
 
 // 🔹 First Collection
 export const a = [
-  {id:16, name:"C-Store", title:"White Minimal Back Print Tee", Price:599, Discount:"30-40% Off", image:Img27},
-  { id: 1,name:"C-Store", title:"Casual T-Shirt", Price: 499, price: 999, Discount: "40% Off", image: Img },
-  { id: 2,name:"C-Store", title:"Classic Denim Jeans", Price: 599, price: 899, Discount: "40% Off", image: Img1 },
-  { id: 3,name:"C-Store", title:"Formal Shirt", Price: 500, price: 1000, Discount: "40% Off", image: Img2 },
-  { id: 4,name:"C-Store", title:"Slim Fit Jeans", Price: 699, price: 999, Discount: "40% Off", image: Img3 },
-  { id: 5,name:"C-Store", title:"Checked Shirt", Price: 499, price: 899, Discount: "40% Off", image: Img4 },
-   { id: 5,name:"C-Store", title:"Oversized Tee Blue", Price: 599, Price: 899, Discount: "30% Off", image: Img21 },
-  { id: 6,name:"C-Store", title:"Graphic Tee", Price: 799, price: 1099, Discount: "40% Off", image: Img5 },
-  { id: 7,name:"C-Store", title:"Sports Shoes", Price: 1500, price:2000, Discount: "40% Off", image: Img6 },
-  { id: 8,name:"C-Store", title:"Ripped Jeans", Price: 499, price: 899, Discount: "40% Off", image: Img7 },
-  { id: 9,name:"C-Store", title:"Casual Shirt", Price: 899, price: 1499, Discount: "40% Off", image: Img8 },
-  { id: 10,name:"C-Store", title:"Round Neck Tee", Price: 499, price: 899, Discount: "40% Off", image: Img9 },
-  // { id: 11,name:"C-Store", title:"Running Shoes", Price: 6000, Discount: "30-40% Off", image: Img10 },
+  {id:16, name:"C-Store", title:"White Minimal Back Print Tee", Price:599, Discount:"30-40% Off", image:Img28},
+  { id: 1,name:"C-Store", title:"Casual T-Shirt", Price: 499, price: 999, Discount: "40% Off", image: Img29 },
+  { id: 2,name:"C-Store", title:"Classic Denim Jeans", Price: 599, price: 899, Discount: "40% Off", image: Img30 },
+  { id: 3,name:"C-Store", title:"Formal Shirt", Price: 500, price: 1000, Discount: "40% Off", image: Img31 },
+  { id: 4,name:"C-Store", title:"Slim Fit Jeans", Price: 699, price: 999, Discount: "40% Off", image: Img32 },
+  { id: 5,name:"C-Store", title:"Checked Shirt", Price: 499, price: 899, Discount: "40% Off", image: Img33 },
+   { id: 5,name:"C-Store", title:"Oversized Tee Blue", Price: 599, Price: 899, Discount: "30% Off", image: Img34 },
+  { id: 6,name:"C-Store", title:"Graphic Tee", Price: 799, price: 1099, Discount: "40% Off", image: Img35 },
+  { id: 7,name:"C-Store", title:"Sports Shoes", Price: 1500, price:2000, Discount: "40% Off", image: Img36 },
+  { id: 8,name:"C-Store", title:"Ripped Jeans", Price: 499, price: 899, Discount: "40% Off", image: Img37 },
+  { id: 9,name:"C-Store", title:"Casual Shirt", Price: 899, price: 1499, Discount: "40% Off", image: Img38 },
+  { id: 10,name:"C-Store", title:"Round Neck Tee", Price: 499, price: 899, Discount: "40% Off", image: Img39 },
+  // { id: 11,name:"C-Store", title:"Running Shoes", Price: 6000, Discount: "30-40% Off", image: Img40 },
   // { id: 12,name:"C-Store", title:"Stretch Jeans", Price: 899, Discount: "30-40% Off", image: Img11 },
 ]
 

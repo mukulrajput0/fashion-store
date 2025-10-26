@@ -21,6 +21,7 @@ import Img19 from "../assets/image/categories/3.png"
 import Img20 from "../assets/image/short-girl/s.png"
 import Img21 from "../assets/image/categories/5.png"
 import Img22 from "../assets/image/categories/6.png"
+
 // import Img23 from "../assets/image/t/t9.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
@@ -288,9 +289,15 @@ className="w-200 h-160 object-cover"
           ))
         }
       </div>
-              <div className='text-center text-bold text-3xl underline'>
+              {/* <div className='text-center text-bold text-3xl underline'>
                 <Link><h1>View More</h1></Link>
-               </div>
+               </div> */}
+
+                {/* View More Link */}
+      <div className="text-center text-2xl font-bold underline cursor-pointer">
+        <Link to="/women-collection">View More</Link>
+      </div>
+               
 
     </div>
   )
