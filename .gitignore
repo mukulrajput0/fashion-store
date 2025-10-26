@@ -1,1 +1,3 @@
-dist/
+[submodule "fashion-Store"]
+  path = fashion-Store
+  url = https://github.com/mukulrajput0/fashion-store.git
