@@ -53,6 +53,7 @@ import HomeTshirtDummy from "./Pages/HomeTshirtDummy";
 import PaymentPage from "./Pages/PaymentPage";
 import { SearchProvider } from "./context/SearchContext";
 import WomenCollection from "./Pages/WomenCollection";
+import WomenCollectionA from "./Pages/WomenCollectionA.jsx";
 
 
 function App(){
@@ -116,6 +117,7 @@ function App(){
      <Route path="/Help" element={<Help/>}/>
      <Route path="/About" element={<About/>}/>
       <Route path="/women-collection" element={<WomenCollection />} />
+      <Route path="/women-collectiona/:id" element={<WomenCollectionA />} />
     </Routes>
  
     <Footer/>

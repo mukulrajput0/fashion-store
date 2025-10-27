@@ -45,6 +45,7 @@ const Footer = () => {
           {[
             
             { icon: <FaLinkedin />, link: "http://www.linkedin.com/in/mukul-rajput-426501246" },
+             { icon: <FaGithub />, link: "https://github.com/mukulrajput0/fashion-store" },
            
             
           ].map((item, index) => (

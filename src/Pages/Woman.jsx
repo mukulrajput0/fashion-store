@@ -44,42 +44,42 @@ const slides = [
 
 
 export const a = [
-  { id: 1, name:"C-Store", title:"Women's Orange Queen Bee Graphic Printed Oversized T-shirt", Price: 1001, Discount: "30-40% Off", image: Img },
-  { id: 2, name:"C-Store", title:"Women's Black Oversized Joggers", Price: 1502, Discount: "30-40% Off", image: Img1 },
-  { id: 3, name:"C-Store", title:"Women's White Printed Oversized T-shirt", Price: 2000, Discount: "30-40% Off", image: Img2 },
-  { id: 4, name:"C-Store", title:"Women's Pink Loose Fit Graphic T-shirt", Price: 1500, Discount: "30-40% Off", image: Img3 },
-  { id: 5, name:"C-Store", title:"Women's Green Super Loose Fit Joggers", Price: 1000, Discount: "30-40% Off", image: Img4 },
-  { id: 6, name:"C-Store", title:"Women's Blue Denim Wide-Leg Trousers", Price: 1800, Discount: "30-40% Off", image: Img5 },
-  { id: 7, name:"C-Store", title:"Women's Black Full Sleeve Oversized T-shirt", Price: 4000, Discount: "30-40% Off", image: Img6 },
-  { id: 8, name:"C-Store", title:"Women's Maroon Casual Hoodie", Price: 2500, Discount: "30-40% Off", image: Img7 },
-  { id: 9, name:"C-Store", title:"Women's White & Blue Striped T-shirt", Price: 2000, Discount: "30-40% Off", image: Img8 },
-  { id: 10, name:"C-Store", title:"Women's Black Cropped T-shirt", Price: 1500, Discount: "30-40% Off", image: Img9 },
+  { id: 1, name:"C-Store", title:"Women's Orange Queen Bee Graphic Printed Oversized T-shirt", Price: 899,price:1499, Discount: "30-40% Off", image: Img },
+  { id: 2, name:"C-Store", title:"Women's Black Oversized Joggers", Price: 799,price:1199, Discount: "30-40% Off", image: Img1 },
+  { id: 3, name:"C-Store", title:"Women's White Printed Oversized T-shirt", Price: 699,price:999, Discount: "30-40% Off", image: Img2 },
+  { id: 4, name:"C-Store", title:"Women's Pink Loose Fit Graphic T-shirt", Price: 900,price:1299, Discount: "30-40% Off", image: Img3 },
+  { id: 5, name:"C-Store", title:"Women's Green Super Loose Fit Joggers", Price: 999,price:1499, Discount: "30-40% Off", image: Img4 },
+  { id: 6, name:"C-Store", title:"Women's Blue Denim Wide-Leg Trousers", Price: 1100,price:1599, Discount: "30-40% Off", image: Img5 },
+  { id: 7, name:"C-Store", title:"Women's Black Full Sleeve Oversized T-shirt", Price: 1000,price:1499, Discount: "30-40% Off", image: Img6 },
+  { id: 8, name:"C-Store", title:"Women's Maroon Casual Hoodie", Price: 800,price:1299, Discount: "30-40% Off", image: Img7 },
+  { id: 9, name:"C-Store", title:"Women's White & Blue Striped T-shirt", Price: 1000,price:1499, Discount: "30-40% Off", image: Img8 },
+  { id: 10, name:"C-Store", title:"Women's Black Cropped T-shirt", Price: 1100,price:2000, Discount: "30-40% Off", image: Img9 },
   // { id: 11, name:"C-Store", title:"Women's Graphic Printed Oversized T-shirt", Price: 6000, Discount: "30-40% Off", image: Img10 },
   // { id: 12, name:"C-Store", title:"Women's Oversized Cotton Fit T-shirt", Price: 2000, Discount: "30-40% Off", image: Img11 },
 ]
 
 const categories = [
-  {  id: 1, name: "C-Store", title: "Women's Oversized Graphic T-shirt", Price: 599, Discount: "30-40% Off", image: Img17 },
+  {  id: 1, name: "C-Store", title: "Women's Oversized Graphic T-shirt", Price: 599,price:899, Discount: "30-40% Off", image: Img17 },
 ];
 
 const categories1 = [
-  { id: 2, name: "C-Store", title: "Women's Casual Joggers", Price: 599, Discount: "30-40% Off", image: Img18 },
+  { id: 2, name: "C-Store", title: "Women's Casual Joggers", Price: 599,price:999, Discount: "30-40% Off", image: Img18 },
 ];
 
 const categories2 = [
-  { id: 3, name: "C-Store", title: "Women's High-Waist Trousers", Price: 599, Discount: "30-40% Off", image: Img19 },
+  { id: 3, name: "C-Store", title: "Women's High-Waist Trousers", Price: 499,price:699, Discount: "30-40% Off", image: Img19 },
 ];
 
 const categories3 = [
-  { id: 4, name: "C-Store", title: "Women's Short Skirt", Price: 599, Discount: "30-40% Off", image: Img20 },
+  { id: 4, name: "C-Store", title: "Women's Short Skirt", Price: 399,price:599, Discount: "30-40% Off", image: Img20 },
 ];
 
 const categories4 = [
-  { id: 5, name: "C-Store", title: "Women's Elegant Long Dress", Price: 599, Discount: "30-40% Off", image: Img21 },
+  { id: 5, name: "C-Store", title: "Women's Elegant Long Dress", Price: 499,price:699, Discount: "30-40% Off", image: Img21 },
 ];
 
 const categories5 = [
-  { id: 6, name: "C-Store", title: "Women's Full-Length Jumpsuit", Price: 599, Discount: "30-40% Off", image: Img22 },
+  { id: 6, name: "C-Store", title: "Women's Full-Length Jumpsuit", Price: 599,price:899, Discount: "30-40% Off", image: Img22 },
 ];
 
 
@@ -96,11 +96,11 @@ const categories5 = [
 // ]
 
 export const d =[
-  { id: 15,name:"C-Store", title:"Women's Brown Oversized Cotton T-shirt", Price: 1000,price:599, Discount: "30-40% Off", image: Img16 },
-  { id: 16,name:"C-Store", title:"Women's Olive Green Oversized Graphic T-shirt", Price: 1000,price:599,  Discount: "30-40% Off", image: Img15 },
-  { id: 17,name:"C-Store", title:"Women's White Minimalist Graphic T-shirt", Price: 1000,price:599,  Discount: "30-40% Off", image: Img10 },
-  { id: 18,name:"C-Store", title:"Women's Black Streetwear Oversized T-shirt", Price: 1000,price:599,  Discount: "30-40% Off", image: Img11 },
-  { id: 19,name:"C-Store", title:"Women's Yellow Loose Fit Summer T-shirt", Price: 1000,price:599,  Discount: "30-40% Off", image: Img12 },
+  { id: 15,name:"C-Store", title:"Women's Brown Oversized Cotton T-shirt", Price: 499,price:899, Discount: "30-40% Off", image: Img16 },
+  { id: 16,name:"C-Store", title:"Women's Olive Green Oversized Graphic T-shirt", Price: 499,price:799,  Discount: "30-40% Off", image: Img15 },
+  { id: 17,name:"C-Store", title:"Women's White Minimalist Graphic T-shirt", Price: 599,price:999,  Discount: "30-40% Off", image: Img10 },
+  { id: 18,name:"C-Store", title:"Women's Black Streetwear Oversized T-shirt", Price: 499,price:899,  Discount: "30-40% Off", image: Img11 },
+  { id: 19,name:"C-Store", title:"Women's Yellow Loose Fit Summer T-shirt", Price: 399,price:699,  Discount: "30-40% Off", image: Img12 },
 ]
 const Woman = () => {
   return (
@@ -246,6 +246,7 @@ className="w-200 h-160 object-cover"
                         <Link><h2 className="text-sm font-medium text-[#4E5664] ml-1">{item.title}</h2></Link>
                         <div className='flex'>
                           <span><Link><p className="text-lg font-semibold text-black ml-1" data-testid="product-card-selling-price">₹{item.Price}</p></Link></span>
+                          <span><Link><p className='text-black font-thin  text-1xl ml-1 line-through '>₹{item.price}</p></Link></span>
                           <span><Link><p className="text-sm font-semibold text-green-600 whitespace-nowrap" data-testid="product-card-discount ml-1">{item.Discount}</p></Link></span>
                         </div>
           </div>
@@ -283,6 +284,7 @@ className="w-200 h-160 object-cover"
                         <Link><h2 className="text-sm font-medium text-[#4E5664] ml-1">{item.title}</h2></Link>
                         <div className='flex'>
                           <span><Link><p className="text-lg font-semibold text-black ml-1" data-testid="product-card-selling-price">₹{item.Price}</p></Link></span>
+                          <span><Link><p className='text-black font-thin  text-1xl ml-1 line-through '>₹{item.price}</p></Link></span>
                           <span><Link><p className="text-sm font-semibold text-green-600 whitespace-nowrap" data-testid="product-card-discount ml-1">{item.Discount}</p></Link></span>
                         </div>
           </div>

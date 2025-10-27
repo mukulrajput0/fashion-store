@@ -38,13 +38,13 @@ import Img39 from '../assets/image/T-shirt-man/12.png'
 
 // 🔹 First Collection
 export const a = [
-  {id:16, name:"C-Store", title:"White Minimal Back Print Tee", Price:599, Discount:"30-40% Off", image:Img28},
+  {id:16, name:"C-Store", title:"White Minimal Back Print Tee", Price:599,price:899, Discount:"30-40% Off", image:Img28},
   { id: 1,name:"C-Store", title:"Casual T-Shirt", Price: 499, price: 999, Discount: "40% Off", image: Img29 },
   { id: 2,name:"C-Store", title:"Classic Denim Jeans", Price: 599, price: 899, Discount: "40% Off", image: Img30 },
   { id: 3,name:"C-Store", title:"Formal Shirt", Price: 500, price: 1000, Discount: "40% Off", image: Img31 },
   { id: 4,name:"C-Store", title:"Slim Fit Jeans", Price: 699, price: 999, Discount: "40% Off", image: Img32 },
   { id: 5,name:"C-Store", title:"Checked Shirt", Price: 499, price: 899, Discount: "40% Off", image: Img33 },
-   { id: 5,name:"C-Store", title:"Oversized Tee Blue", Price: 599, Price: 899, Discount: "30% Off", image: Img34 },
+   { id: 5,name:"C-Store", title:"Oversized Tee Blue", Price: 599, price: 899, Discount: "30% Off", image: Img34 },
   { id: 6,name:"C-Store", title:"Graphic Tee", Price: 799, price: 1099, Discount: "40% Off", image: Img35 },
   { id: 7,name:"C-Store", title:"Sports Shoes", Price: 1500, price:2000, Discount: "40% Off", image: Img36 },
   { id: 8,name:"C-Store", title:"Ripped Jeans", Price: 499, price: 899, Discount: "40% Off", image: Img37 },
@@ -56,21 +56,21 @@ export const a = [
 
 // 🔹 Second Collection
 export const b = [
-  { id: 1,name:"C-Store", title:"Oversized Tee White", Price: 599, Price: 999, Discount: "30% Off", image: Img17 },
-  { id: 2,name:"C-Store", title:"Oversized Tee Black", Price: 499, Price: 799, Discount: "30% Off", image: Img18 },
-  { id: 3,name:"C-Store", title:"Oversized Tee Yellow", Price: 599, Price: 899, Discount: "30% Off", image: Img19 },
-  { id: 4,name:"C-Store", title:"Oversized Tee Red", Price: 699, Price: 999, Discount: "30% Off", image: Img20 },
-  { id: 5,name:"C-Store", title:"Oversized Tee Blue", Price: 599, Price: 899, Discount: "30% Off", image: Img21 },
+  { id: 1,name:"C-Store", title:"Oversized Tee White", Price: 599, price: 999, Discount: "30% Off", image: Img17 },
+  { id: 2,name:"C-Store", title:"Oversized Tee Black", Price: 499, price: 799, Discount: "30% Off", image: Img18 },
+  { id: 3,name:"C-Store", title:"Oversized Tee Yellow", Price: 599, price: 899, Discount: "30% Off", image: Img19 },
+  { id: 4,name:"C-Store", title:"Oversized Tee Red", Price: 699, price: 999, Discount: "30% Off", image: Img20 },
+  { id: 5,name:"C-Store", title:"Oversized Tee Blue", Price: 599, price: 899, Discount: "30% Off", image: Img21 },
 ]
 
 // 🔹 Third Collection
 export const c = [
-  { id: 7,name:"C-Store", title:"Basic Tee Black", Price: 399, Price: 899, Discount: "40% Off", image: Img16 },
-  { id: 6,name:"C-Store", title:"Basic Tee White", Price: 299, Price: 500, Discount: "30% Off", image: Img15 },
-  { id: 8,name:"C-Store", title:"Basic Tee Grey", Price: 399, Price: 700, Discount: "30% Off", image: Img17 },
-  {id:14, name:"C-Store", title:"Denim Blue Back Print Tee", Price:599, Discount:"30-40% Off", image:Img25},
-    {id:15, name:"C-Store", title:"Black Typography Oversized T-shirt", Price:599, Discount:"30-40% Off", image:Img26},
-    {id:16, name:"C-Store", title:"White Minimal Back Print Tee", Price:599, Discount:"30-40% Off", image:Img27},
+  { id: 7,name:"C-Store", title:"Basic Tee Black", Price: 399, price: 899, Discount: "40% Off", image: Img16 },
+  { id: 6,name:"C-Store", title:"Basic Tee White", Price: 299, price: 500, Discount: "30% Off", image: Img15 },
+  { id: 8,name:"C-Store", title:"Basic Tee Grey", Price: 399, price: 700, Discount: "30% Off", image: Img17 },
+  {id:14, name:"C-Store", title:"Denim Blue Back Print Tee", Price:599,price:999, Discount:"30-40% Off", image:Img25},
+    {id:15, name:"C-Store", title:"Black Typography Oversized T-shirt", Price:599,price:899, Discount:"30-40% Off", image:Img26},
+    {id:16, name:"C-Store", title:"White Minimal Back Print Tee", Price:599,price:999, Discount:"30-40% Off", image:Img27},
 ]
 
 const Man = () => {
@@ -115,6 +115,7 @@ const Man = () => {
             <Link><h2 className="text-sm font-medium text-[#4E5664] ml-1">{item.title}</h2></Link>
             <div className='flex'>
               <span><Link><p className="text-lg font-semibold text-black ml-1" data-testid="product-card-selling-price">₹{item.Price}</p></Link></span>
+                <span><Link><p className='text-black font-thin  text-1xl ml-1 line-through '>₹{item.price}</p></Link></span>
               <span><Link><p className="text-sm font-semibold text-green-600 whitespace-nowrap" data-testid="product-card-discount ml-1">{item.Discount}</p></Link></span>
             </div>
           </div>
@@ -134,6 +135,7 @@ const Man = () => {
             <Link><h2 className="text-sm font-medium text-[#4E5664] ml-1">{item.title}</h2></Link>
             <div className='flex'>
               <span><Link><p className="text-lg font-semibold text-black ml-1" data-testid="product-card-selling-price">₹{item.Price}</p></Link></span>
+               <span><Link><p className='text-black font-thin  text-1xl ml-1 line-through '>₹{item.price}</p></Link></span>
               <span><Link><p className="text-sm font-semibold text-green-600 whitespace-nowrap" data-testid="product-card-discount ml-1">{item.Discount}</p></Link></span>
             </div>
           </div>
@@ -153,6 +155,7 @@ const Man = () => {
             <Link><h2 className="text-sm font-medium text-[#4E5664] ml-1">{item.title}</h2></Link>
             <div className='flex'>
               <span><Link><p className="text-lg font-semibold text-black ml-1" data-testid="product-card-selling-price">₹{item.Price}</p></Link></span>
+               <span><Link><p className='text-black font-thin  text-1xl ml-1 line-through '>₹{item.price}</p></Link></span>
               <span><Link><p className="text-sm font-semibold text-green-600 whitespace-nowrap" data-testid="product-card-discount ml-1">{item.Discount}</p></Link></span>
             </div>
           </div>
