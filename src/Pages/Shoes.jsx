@@ -65,7 +65,7 @@ const Shoes = () => {
        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 ml:grid-cols-4 gap-6 mt-10 items-center justify-center   ml-10 mr-10'>
         {t.map((item) => (
           <div key={item.id} className=" rounded p-1 shadow hover:shadow-ml  transition">
-              <Link to={`/Shoes/${item.id}`}><img src={item.image} alt={item.name} className='hover:brightness-75 cursor-pointer w-full h-120 object-cover' /></Link>
+              <Link to={`/shoesdummy/${item.id}`}><img src={item.image} alt={item.name} className='hover:brightness-75 cursor-pointer w-full h-120 object-cover' /></Link>
             {/* <span><p className=" text-black flex font-light text-[13px] ">{item.title.slice(0,30)}..</p></span> */}
             <Link><span><p className="font-bold text-gray-800 mt-1 ml-1">{item.name}</p></span></Link>
                         {/* <Link><h2 className="text-sm font-medium text-[#4E5664] ml-1">{item.title.slice(0,30)}..</h2></Link> */}

@@ -35,7 +35,7 @@ export const t1 =[
   {id:13, name:"C-Store", title:"Green Streetwear Back Print T-shirt", Price:599,price:899, Discount:"30% Off", image:Img24},
   {id:14, name:"C-Store", title:"Denim Blue Back Print Tee", Price:399,price:799, Discount:"30% Off", image:Img25},
   {id:15, name:"C-Store", title:"Black Typography Oversized T-shirt", Price:599,price:899, Discount:"40% Off", image:Img26},
-  {id:16, name:"C-Store", title:"White Minimal Back Print Tee", Price:499,Price:999, Discount:"30% Off", image:Img27},
+  {id:16, name:"C-Store", title:"White Minimal Back Print Tee", Price:499,price:999, Discount:"30% Off", image:Img27},
 ]
 
 
@@ -75,6 +75,7 @@ const HomeTshirt = () => {
                         <Link><h2 className="text-sm font-medium text-[#4E5664] ml-1">{item.title}</h2></Link>
                         <div className='flex'>
                           <span><Link><p className="text-lg font-semibold text-black ml-1" data-testid="product-card-selling-price">₹{item.Price}</p></Link></span>
+                          <p className='text-black font-thin  text-1xl ml-1 line-through '>₹{item.price}</p>
                           <span><Link><p className="text-sm font-semibold text-green-600 whitespace-nowrap" data-testid="product-card-discount ml-1">{item.Discount}</p></Link></span>
                         </div>
           </div>

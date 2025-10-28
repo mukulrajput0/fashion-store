@@ -54,6 +54,10 @@ import PaymentPage from "./Pages/PaymentPage";
 import { SearchProvider } from "./context/SearchContext";
 import WomenCollection from "./Pages/WomenCollection";
 import WomenCollectionA from "./Pages/WomenCollectionA.jsx";
+import HomeLowerDummy from "./Pages/HomeLowerDummy.jsx";
+import HomeTouserDummy from "./Pages/HomeTouserDummy.jsx";
+import HomeShirtDummy from "./Pages/HomeShirtDummy.jsx";
+import HomeCargoDummy from "./Pages/HomeCargoDummy.jsx";
 
 
 function App(){
@@ -93,10 +97,14 @@ function App(){
       <Route path="/homea/:id" element={<HomeTshirt  />} /> 
       <Route path="/hometshirtDummy/:id" element={<HomeTshirtDummy />} /> 
       <Route path="/homelower/:id" element={<HomeLower  />} />
+        <Route path="/homelowerdummy/:id" element={<HomeLowerDummy  />} />
       <Route path="/homeshirt/:id" element={<HomeShirt  />} />
+      <Route path="/homeshirtdummy/:id" element={<HomeShirtDummy  />} />
       <Route path="/hometouser/:id" element={<HomeTouser  />} />  
+        <Route path="/hometouserdummy/:id" element={<HomeTouserDummy />} />
       <Route path="/homehalf/:id" element={<HomeHalf  />} />
       <Route path="/homecargo/:id" element={<HomeCargo  />} /> 
+      <Route path="/homecargodummy/:id" element={<HomeCargoDummy  />} /> 
       <Route path="/shoesdummy/:id" element={<ShoesDummy  />} />   
        <Route path="/paymentpage" element={<PaymentPage  />} />   
 

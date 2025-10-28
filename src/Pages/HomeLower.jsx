@@ -21,23 +21,23 @@ import Img29 from "../assets/image/man-lower/18.png"
 
 import { Link } from 'react-router-dom'
 
- const t1 =[
-  {id:1, name:"C-Store", title:"Solid Black Joggers", Price:599, Discount:"30-40% Off", image:Img12},
-  {id:2, name:"C-Store", title:"Classic Grey Joggers", Price:599, Discount:"30-40% Off", image:Img13},
-  {id:3, name:"C-Store", title:"Navy Blue Track Pants", Price:599, Discount:"30-40% Off", image:Img14},
-  {id:4, name:"C-Store", title:"Olive Green Cargo Joggers", Price:599, Discount:"30-40% Off", image:Img15},
-  {id:5, name:"C-Store", title:"Charcoal Slim Fit Joggers", Price:599, Discount:"30-40% Off", image:Img16},
-  {id:6, name:"C-Store", title:"Light Grey Lounge Pants", Price:599, Discount:"30-40% Off", image:Img17},
-  {id:7, name:"C-Store", title:"Blue Striped Joggers", Price:599, Discount:"30-40% Off", image:Img18},
-  {id:8, name:"C-Store", title:"Solid White Joggers", Price:599, Discount:"30-40% Off", image:Img19},
-  {id:9, name:"C-Store", title:"Dark Green Joggers", Price:599, Discount:"30-40% Off", image:Img20},
-  {id:10, name:"C-Store", title:"Maroon Cotton Joggers", Price:599, Discount:"30-40% Off", image:Img21},
-  {id:11, name:"C-Store", title:"Sporty Black Track Pants", Price:599, Discount:"30-40% Off", image:Img22},
-  {id:12, name:"C-Store", title:"Beige Relaxed Fit Joggers", Price:599, Discount:"30-40% Off", image:Img23},
-  {id:13, name:"C-Store", title:"Steel Grey Joggers", Price:599, Discount:"30-40% Off", image:Img24},
-  {id:14, name:"C-Store", title:"Denim Look Joggers", Price:599, Discount:"30-40% Off", image:Img25},
-  {id:15, name:"C-Store", title:"Camouflage Print Joggers", Price:599, Discount:"30-40% Off", image:Img26},
-  {id:16, name:"C-Store", title:"Khaki Casual Joggers", Price:599, Discount:"30-40% Off", image:Img27},
+ export const t1 =[
+  {id:1, name:"C-Store", title:"Solid Black Joggers", Price:599,price:999, Discount:"30-40% Off", image:Img12},
+  {id:2, name:"C-Store", title:"Classic Grey Joggers", Price:500,price:800, Discount:"30-40% Off", image:Img13},
+  {id:3, name:"C-Store", title:"Navy Blue Track Pants", Price:350,price:700, Discount:"30-40% Off", image:Img14},
+  {id:4, name:"C-Store", title:"Olive Green Cargo Joggers", Price:499,price:900, Discount:"30-40% Off", image:Img15},
+  {id:5, name:"C-Store", title:"Charcoal Slim Fit Joggers", Price:400,price:700, Discount:"30-40% Off", image:Img16},
+  {id:6, name:"C-Store", title:"Light Grey Lounge Pants", Price:399,price:900, Discount:"30-40% Off", image:Img17},
+  {id:7, name:"C-Store", title:"Blue Striped Joggers", Price:500,price:800, Discount:"30-40% Off", image:Img18},
+  {id:8, name:"C-Store", title:"Solid White Joggers", Price:370,price:800, Discount:"30-40% Off", image:Img19},
+  {id:9, name:"C-Store", title:"Dark Green Joggers", Price:400,price:999, Discount:"30-40% Off", image:Img20},
+  {id:10, name:"C-Store", title:"Maroon Cotton Joggers", Price:300,price:799, Discount:"30-40% Off", image:Img21},
+  {id:11, name:"C-Store", title:"Sporty Black Track Pants", Price:400,price:800, Discount:"30-40% Off", image:Img22},
+  {id:12, name:"C-Store", title:"Beige Relaxed Fit Joggers", Price:300,price:600, Discount:"30-40% Off", image:Img23},
+  {id:13, name:"C-Store", title:"Steel Grey Joggers", Price:500,price:900, Discount:"30-40% Off", image:Img24},
+  {id:14, name:"C-Store", title:"Denim Look Joggers", Price:450,price:800, Discount:"30-40% Off", image:Img25},
+  {id:15, name:"C-Store", title:"Camouflage Print Joggers", Price:400,price:800, Discount:"30-40% Off", image:Img26},
+  {id:16, name:"C-Store", title:"Khaki Casual Joggers", Price:299,price:600, Discount:"30-40% Off", image:Img27},
 ]
 
 
@@ -69,11 +69,12 @@ const HomeLower = () => {
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 ml:grid-cols-4 gap-6 mt-10 items-center justify-center   ml-10 mr-10'>
         {t1.map((item) => (
           <div key={item.id} className=" rounded p-1 shadow hover:shadow-ml  transition">
-            <img src={item.image} alt={item.name} className='hover:brightness-75 cursor-pointer w-full h-120 object-cover' />
+             <Link to={`/HomeLowerDummy/${item.id}`}><img src={item.image} alt={item.name} className='hover:brightness-75 cursor-pointer w-full h-120 object-cover' /></Link>
             <Link><span><p className="font-bold text-gray-800 mt-1 ml-1">{item.name}</p></span></Link>
                         <Link><h2 className="text-sm font-medium text-[#4E5664] ml-1">{item.title}</h2></Link>
                         <div className='flex'>
                           <span><Link><p className="text-lg font-semibold text-black ml-1" data-testid="product-card-selling-price">₹{item.Price}</p></Link></span>
+                          <p className='text-black font-thin  text-1xl ml-1 line-through '>₹{item.price}</p>
                           <span><Link><p className="text-sm font-semibold text-green-600 whitespace-nowrap" data-testid="product-card-discount ml-1">{item.Discount}</p></Link></span>
                         </div>
           </div>

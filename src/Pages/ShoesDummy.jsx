@@ -3,12 +3,13 @@
 
   import { IoLocation } from "react-icons/io5";
 import { useParams } from 'react-router-dom';
-import { shoes } from './Home';
+// import { shoes } from './Home';
 import { LuShoppingBag } from "react-icons/lu";
+import { t } from './Shoes';
 
   const ShoesDummy = () => {
     const  {id} =useParams()
-    const pro1=shoes.find((item)=>item.id===parseInt(id))
+    const pro1=t.find((item)=>item.id===parseInt(id))
     return (
       <div >
           <div className='flex shadow-xl/30 flex bg-white w-320 ml-75 gap-8 mt-8 mb-20'>
